@@ -1,0 +1,31 @@
+Will have different models, each trained on specific features inside of the database.
+
+1. Trained on personal / customer info
+    - name, gender, dob, job
+
+2. Trained on account info
+    - ssn, account number, credit card number, payment type
+
+3. Trained on city / location data
+    - name, ssn, city, state, zip
+
+4. Trained on time and amount
+    - time features
+        - hour, day, month, transactions in last minute, transactions in last hour, time since last transaction
+    - amount
+        - amount of purchases, last amount purchase, largest of last 10 amount purchases, average of last 10 purchases
+        - average purchase of user
+
+5. Trained on device / ip address
+    - device
+    - ip address
+    - new device
+    - device hash
+
+6. trained on transaction details
+    - transaction type
+    - merchant category
+    - payment channel
+
+7. trained on all of the above
+

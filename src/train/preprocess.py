@@ -20,7 +20,7 @@ def preprocess(n):
 
     #  model 1 (personal info)
     full_names = df1["first"] + " " + df1["last"]
-    personal_df = df1[['gender', 'dob', 'job']].copy()
+    personal_df = df1[['gender', 'dob', 'job', "is_fraud"]].copy()
     personal_df["name"] = full_names
     personal_df.to_csv(os.path.join(p_folder_path, f"personal_{n}.csv"), index=False)
     
